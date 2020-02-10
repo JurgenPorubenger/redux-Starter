@@ -8,10 +8,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div>
-            <h2>{}</h2>
+            <h2>0</h2>
             <Button name='INC'/>
             <Button name='DEC'/>
             <Button name='RND'/>
+
             {/*{store.getState()}*/}
         </div>
       </header>
