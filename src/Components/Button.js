@@ -7,6 +7,7 @@ const store = createStore(reducer,  window.__REDUX_DEVTOOLS_EXTENSION__ && windo
 const {dispatch,subscribe,getState} =store;
 
 export default function Button(props) {
+    // const{}=props
     const bindActionCreator = (creator,dispatch)=>(...args)=>dispatch(creator(...args));
     const incDispatch = bindActionCreator(inc,dispatch);
     const decDispatch = bindActionCreator(dec,dispatch);

@@ -1,22 +1,10 @@
 import React from 'react';
 import './App.css';
-import Button from './Components/Button'
-
+import Counter from "./Components/Counter/Counter";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <div>
-            <h2>0</h2>
-            <Button name='INC'/>
-            <Button name='DEC'/>
-            <Button name='RND'/>
-
-            {/*{store.getState()}*/}
-        </div>
-      </header>
-    </div>
+    <Counter />
   );
 }
 

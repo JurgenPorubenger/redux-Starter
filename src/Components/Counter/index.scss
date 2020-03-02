@@ -1,7 +1,18 @@
 
 .main {
+  margin: 50px auto;
   display: flex;
+  max-width: 200px;
   flex-direction: column;
-
   justify-content: center;
+  div {
+    margin: 0 auto;
+    button{
+      background-color: darkkhaki;
+      border-radius: 5px;
+    }
+  }
+  #counter {
+    margin: 0 auto;
+  }
 }
